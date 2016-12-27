@@ -2,10 +2,10 @@
 #fir.cli 自动打包流程
 startTime=`date +"%s.%N"`
 #####################打包信息设置
-# 指定打包的scheme:  qhfax,qhfax_Dev
-schema="qhfax_Dev"
+# 指定打包的scheme:  xxx,xxx_Dev
+schema="xxx_Dev"
 # 指定打包的分支名称
-branch="qhfaxios_1.0.0_dev_20160504"
+branch="branch01"
 # 设置更新日志
 changeLog="1.beta环境打包"
 # 是否打包本地工程
@@ -15,13 +15,13 @@ isArchiveLocalProject=true
 #判断是用的workspace还是直接project，workspace设置为true，否则设置为false
 isWorkSpace=true
 #设置打包.ipa输出路径
-output_path="/Users/Brustar/Desktop/qhfax_ipa"
+output_path="ipa输出路径"
 #git仓库url
-git_url="ssh://wangjian@192.168.1.111:29418/root/QhfaxIOS"
+git_url="git 仓库地址"
 #本地仓库地址
-project_path="/Users/Brustar/Desktop/qhfax_iOS"
+project_path="本地项目地址"
 #fir.im API_TOKEN
-api_Token="e4c2a068b717167ce3381a2025786992"
+api_Token="*******"
 
 echo "=================开始打包流程=================="
 #进入工程目录
