@@ -1,1 +1,1 @@
-# ximingGitHub
+#### 自动打包脚本， 配置下工程参数就ok，以后每次打包只需设置scheme,branch ,changeLog ，执行脚本文件即可自动打包并上传第三方托管平台
